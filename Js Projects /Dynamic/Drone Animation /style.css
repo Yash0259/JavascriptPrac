@@ -1,0 +1,79 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+main {
+    position: relative;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(to bottom, #000000, #6a0dad);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .drone {
+    width: 150px;
+    animation: hover 3s infinite ease-in-out;
+}
+
+@keyframes hover {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.journey {
+    height: 100vh;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.drone-animation {
+    width: 100px;
+    height: 100px;
+    background: url('assets/images/drone-icon.png') no-repeat center/contain;
+    animation: fly 5s infinite linear;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.features {
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-card {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: inline-block;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
