@@ -29,10 +29,3 @@ app.get('/',(req,res)=>{
 	res.json({status:true,id:"b826"});
 })
 
-
-
-
-// // define API route 
-// app.get('/',(req,res)=>{
-// 	res.json({status: 'true',id:"b826"});
-// });
