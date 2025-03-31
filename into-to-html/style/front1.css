@@ -1,0 +1,60 @@
+
+p{
+    font-family:roboto;
+}
+.title-para
+{
+    
+    font-weight:bold;
+    font-size:18px;
+    width:280px;
+    line-height:26px;
+    margin-bottom:0px;
+}
+
+.stats-para
+{
+    font-family:arial;
+    color:rgb(96, 96, 96);
+    font-size:14px;
+    margin-top:5px;
+    margin-bottom:0px;
+}
+
+.author-para
+{
+    font-family:arial;
+    font-size:14px;
+    margin-top:15px;
+    color:rgb(96, 96, 96);
+    margin-bottom:0px;
+   
+}
+.info-para
+{
+    font-family:arial;
+    font-size:14px;
+    margin-top:15px;
+    color:rgb(96, 96, 96);
+    line-height:20px;
+    width:280px;
+    margin-bottom:50px;
+}
+.apple-para
+{
+    background-color:rgb(227, 65, 65);
+    color : white;
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:15px
+    
+}
+.shop-under{
+    cursor:pointer;
+    margin-left:5px;
+}
+.shop-under:hover
+{
+    text-decoration:underline;
+    cursor:pointer;
+}
