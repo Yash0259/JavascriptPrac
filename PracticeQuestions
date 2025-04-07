@@ -1,0 +1,113 @@
+// reverse string 
+
+// console.log(reverseString("Hello , Yash"));
+
+// function reverseString(str){
+//     let reversed = "";
+    
+//     for (let i = str.length -1;i>=0;i--){
+//         reversed += str[i];
+//     }
+//     return reversed;
+// }
+
+//using shortcut way 
+// function reverseString(str){
+//     return str.("").reverse().join("");
+// }
+
+
+// longest word in the sentace 
+// console.log(findLongWord("I Love Coding in Javascript"));
+
+// function findLongWord(str){
+//     let findWord = " ";
+//     let words = str.split(" ");
+    
+//     for (let word of words){
+//         if (word.length > findWord.length){
+//             findWord = word;
+//         }
+//     }
+//     return findWord;
+// }
+
+// check palindrom 
+// console.log(isPalindrome("racecar"));
+
+// function isPalindrome(str){
+//     const reverse = str.split(" ").reverse().join();
+    
+//     if ( reverse == str){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// };
+
+//remove duplicates from array 
+// console.log(removeDup([1,2,3,4,4,5,6,6]));
+
+// function removeDup(arr){
+//     const uniqueNo = [] ;
+    
+//     for ( let i = 0;i< arr.length;i++){
+//         if ( uniqueNo.indexof[arr[i]] === -1){
+//           uniqueNo.push(arr[i]);
+//         }
+//     } 
+//     return uniqueNo;
+// }
+// using set 
+// function removeDup(arr){
+//     return [...new Set(arr)];
+// }
+
+
+// check 2 strings are anagrams or not ( both word should consist same char)
+
+// console.log(areAnagram("listen","silent"));
+
+// function areAnagram(str1,str2){
+//     const sort1 = str1.split("").sort().join();
+//     const sort2 = str2.split("").sort().join();
+    
+//     return sort1 === sort2;
+// }
+
+// count vowerls 
+
+// console.log(countVowels("Hello, world"));
+
+// function countVowels(str){
+//     const vowels = ["a","e","i","o","u"];
+    
+//     let count =0 ;
+//     for (let char of str.toLowerCase()){
+//         if (vowels.includes(char)){
+//             count ++;
+//         }
+//     }
+//     return count;
+// }
+
+// prime no 
+// console.log(isPrime(10));
+
+// function isPrime(a){
+//     for (let i = 2;i<=a/2;i++){
+//         if(a % i ===0){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+// replace whitespace
+// const inputSt = "Hello,    Yash";
+// console.log(removeWhite(inputSt));
+
+// function removeWhite(str){
+//     const result = str.replace(/\s/g,"");
+//     return result;
+// }
